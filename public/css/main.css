@@ -1,0 +1,47 @@
+.site-header[data-header-style="10"] .main-nav {
+    display: flex;
+    justify-content: space-around;
+}
+.site-header[data-header-style="10"] {
+    padding-top: 10px;
+}
+.site-header[data-header-style="10"] .main-nav>ul>li>a {
+    cursor: pointer!important;
+}
+body .site-header .main-nav .ws_main-menu{
+    line-height: 1.7;
+    cursor: default;
+    min-width: 378px;
+    display: flex;
+    justify-content: center;
+}
+.site-header[data-header-style="10"] .kl-cta-ribbon {
+    margin-top: -15px;
+}
+.screenshot-box {
+    background: none;
+    position: relative;
+    border: none;
+    box-shadow: none;
+}
+.grid-ibx__item{
+    background: none;
+}
+.grid-ibx--hover-shadow .grid-ibx__item:hover {
+     box-shadow: 0 40px 120px -20px rgba(0,0,0,0.6);
+    z-index: 1;
+}
+#footer{
+    margin-top: -1px;
+    border: none;
+}
+.ac-buttons .btn-fullwhite{
+    background-color: #fff;
+    color: #242424;
+}
+.table{
+    width: 80%;
+}
+.table th, .table td{
+    border-top: none;
+}
