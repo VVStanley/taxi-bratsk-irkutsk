@@ -49,7 +49,7 @@ class IndexController extends Controller
 
         \Mail::raw($phone, function($message) use ($mOption, $phone)
         {
-            $message->from('no-reply@taxi-bratsk-irkutsk.ru', 'Сообщение с сайта');
+            $message->from('no-reply@taxi-bratsk-irkutsk.ru', 'taxi site');
             $message->to($mOption->email, 'Receiver')->subject($phone);
         });
 
