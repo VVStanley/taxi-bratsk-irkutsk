@@ -49,8 +49,8 @@ class IndexController extends Controller
 
         \Mail::raw($phone, function($message) use ($mOption, $phone)
         {
-            $message->from('no-reply@taxi-bratsk-irkutsk.ru', 'taxi site');
-            $message->to($mOption->email, 'Receiver')->subject($phone);
+            $message->from('taxi@taxi-bratsk-irkutsk.ru');
+            $message->to($mOption->email)->subject($phone);
         });
 
         echo json_encode('ок');
