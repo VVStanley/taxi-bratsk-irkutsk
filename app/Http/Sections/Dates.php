@@ -72,7 +72,7 @@ class Dates extends Section implements Initializable
                     \AdminFormElement::date('date', 'Дата отпрвления'),
                 ], 12)
                 ->addColumn([
-                    \AdminFormElement::time('time', 'Время отправления')->setFormat('g:i'),
+                    \AdminFormElement::time('time', 'Время отправления'),
                 ], 12)
         );
 
