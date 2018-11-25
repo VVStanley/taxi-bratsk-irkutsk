@@ -47,10 +47,11 @@ class IndexController extends Controller
             'phone' =>  'required|numeric'
         ]);
 
-        \Mail::raw($phone, function($message) use ($mOption)
+        \Mail::raw($phone, function($message) use ($mOption, $phone)
         {
             $message->from('us@example.com', 'Сообщение с сайта');
             $message->to($mOption->email);
+            $message->subject($phone);
         });
 
         echo json_encode('ок');
