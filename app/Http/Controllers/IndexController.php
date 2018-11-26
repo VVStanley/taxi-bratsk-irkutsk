@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\PostRequest;
+use App\Mail\Callback;
+use App\Mail\post;
 use App\Models\Dates;
 use App\Models\Option;
 use App\Models\Seos;
@@ -40,18 +42,17 @@ class IndexController extends Controller
 
     public function post(Request $request)
     {
-        $mOption = Option::findOrFail(1);
-        $phone = $request->get('phone');
-
         $request->validate([
             'phone' =>  'required|numeric'
         ]);
 
-        \Mail::raw($phone, function($message) use ($mOption, $phone)
-        {
-            $message->from('taxi@taxi-bratsk-irkutsk.ru');
-            $message->to($mOption->email)->subject($phone);
-        });
+        \Mail::send(new Callback($request->get('phone')));
+
+//        \Mail::raw($phone, function($message) use ($mOption, $phone)
+//        {
+//            $message->from('taxi@taxi-bratsk-irkutsk.ru');
+//            $message->to($mOption->email)->subject($phone);
+//        });
 
         echo json_encode('ок');
     }
