@@ -33,6 +33,8 @@ class Callback extends Mailable
     {
         $option = Option::findOrFail(1);
 
-        return $this->from($option->email)->view('mail.callback');
+        return $this->from($option->email, 'site  taxi')
+            ->to($option->email, 'site taxi')
+            ->view('mail.callback');
     }
 }
