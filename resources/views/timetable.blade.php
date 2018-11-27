@@ -124,21 +124,6 @@
                 </div>
                 <!--/ Price list element -->
 
-                <!-- Title element -->
-                <div class="kl-title-block text-center">
-                    <!-- Title with custom font size and thin style -->
-                    <div class="col-md-12">
-                        <h3 class="title tcolor text-left">
-                            Финансовая отчетность
-                        </h3>
-                    </div>
-                </div>
-                <!--/ Title element -->
-
-                <p>
-                    Предаставляем бланки строгой отчетности для организаций
-                </p>
-
 
             </div>
 

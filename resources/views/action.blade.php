@@ -9,22 +9,22 @@
                     <div class="action_box_inner container">
                         <div class="action_box_content row">
                             <!-- Content -->
-                            <div class="ac-content-text col-sm-12 col-md-8 mb-md-20">
+                            <div class="ac-content-text col-sm-12 col-md-12 mb-md-20 text-center">
                                 <!-- Title -->
                                 <h4 class="text">
-                                    Для бронирования места закажите обратный звонок
+                                    Для бронирования места звоните или пишите в мессенджер
                                 </h4>
 
                             </div>
                             <!--/ Content col-sm-12 col-md-12 col-lg-7 mb-md-20 -->
 
-                            <!-- Call to Action buttons -->
+                            <!-- Call to Action buttons
                             <div class="ac-buttons col-sm-12 col-md-4 d-flex align-self-center justify-content-center justify-content-lg-end">
                                 <a href="#contact_panel"  class="btn btn-fullwhite kl-cta-ribbon" target="_self">
                                     Заказать
                                 </a>
                             </div>
-                            <!--/ Call to Action buttons -->
+                            Call to Action buttons -->
                         </div>
                         <!--/ .action_box_content -->
                     </div>

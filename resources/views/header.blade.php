@@ -35,7 +35,7 @@
 
                     <!-- Call to action ribbon Free Quote (Contact form pop-up element) -->
                     <div class="quote-ribbon">
-                        <a href="#contact_panel" id="ctabutton" class="ctabutton kl-cta-ribbon" title="GET A FREE QUOTE" target="_self">
+                        <a href="#" id="ctabutton" class="ctabutton kl-cta-ribbon" title="Звоните" target="_self">
                             <strong>Заказать</strong>ТАКСИ
                             <svg version="1.1" class="trisvg"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" preserveaspectratio="none" width="14px" height="5px" viewbox="0 0 14 5" enable-background="new 0 0 14 5" xml:space="preserve">
 							    <polygon fill-rule="nonzero" points="14 0 7 5 0 0"></polygon>

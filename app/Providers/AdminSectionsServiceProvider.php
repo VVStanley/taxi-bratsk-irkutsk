@@ -6,6 +6,12 @@ use SleepingOwl\Admin\Providers\AdminSectionsServiceProvider as ServiceProvider;
 
 class AdminSectionsServiceProvider extends ServiceProvider
 {
+    /**
+     * @var array
+     */
+    protected $widgets = [
+        \App\Widgets\NavBar::class,
+    ];
 
     /**
      * @var array
