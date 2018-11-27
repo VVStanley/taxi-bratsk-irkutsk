@@ -45,3 +45,6 @@ body .site-header .main-nav .ws_main-menu{
 .table th, .table td{
     border-top: none;
 }
+.mr-20{
+    margin-right: 20px;
+}

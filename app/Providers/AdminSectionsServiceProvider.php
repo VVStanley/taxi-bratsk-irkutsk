@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use SleepingOwl\Admin\Contracts\Widgets\WidgetsRegistryInterface;
 use SleepingOwl\Admin\Providers\AdminSectionsServiceProvider as ServiceProvider;
 
 class AdminSectionsServiceProvider extends ServiceProvider
@@ -31,8 +32,17 @@ class AdminSectionsServiceProvider extends ServiceProvider
      */
     public function boot(\SleepingOwl\Admin\Admin $admin)
     {
-    	//
-
         parent::boot($admin);
+
+        $this->app->call( [ $this, 'registerViews' ] );
+    }
+
+    /**
+     * @param WidgetsRegistryInterface $widgetsRegistry
+     */
+    public function registerViews( WidgetsRegistryInterface $widgetsRegistry ) {
+        foreach ( $this->widgets as $widget ) {
+            $widgetsRegistry->registerWidget( $widget );
+        }
     }
 }

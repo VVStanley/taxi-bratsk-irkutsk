@@ -23,9 +23,7 @@ class NavBar extends Widget
      */
     public function toHtml()
     {
-        return view('admin::auth.navbar', [
-            'user' => auth()->user()
-        ])->render();
+        return view('admin.widgets.navbar')->render();
     }
 
     /**
