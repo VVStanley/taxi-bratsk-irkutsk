@@ -46,7 +46,7 @@
                         <!-- Content -->
                         <div class="content">
                             <!-- Description -->
-                            <p>Отправление в 9:00 <br>
+                            <p>Отправление <br>
                             Забор по городу </p>
                             <!--/ Description -->
                         </div>
