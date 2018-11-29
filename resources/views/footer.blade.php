@@ -19,7 +19,7 @@
                     <!-- copyright -->
                     <div class="copyright">
                         <p>
-                            © разработка веб-приложений <a href="http://resume.vsbrain.ru">WStanley</a>.
+                            © разработка веб-приложений <a href="https://resume.vsbrain.ru">WStanley</a>.
                         </p>
                     </div>
                     <!--/ copyright -->
