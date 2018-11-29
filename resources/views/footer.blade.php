@@ -19,7 +19,7 @@
                     <!-- copyright -->
                     <div class="copyright">
                         <p>
-                            © разработка веб-приложений <a href="https://wstanley.ru">WStanley</a>.
+                            © разработка веб-приложений <a href="https://wstanley.ru" target="_blank">WStanley</a>.
                         </p>
                     </div>
                     <!--/ copyright -->
